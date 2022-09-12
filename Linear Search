@@ -1,30 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@Poornachandra14 
-Shreya-S-Vi
-/
-Slot-A-CSA0371-Data-Structures
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-Slot-A-CSA0371-Data-Structures/Linear Search
-@Shreya-S-Vi
-Shreya-S-Vi Create Linear Search
-Latest commit 7447e06 23 minutes ago
- History
- 1 contributor
-44 lines (42 sloc)  718 Bytes
-
 #include<stdio.h>
 void main()
 {
