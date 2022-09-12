@@ -1,0 +1,86 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Poornachandra14 
+Shreya-S-Vi
+/
+Slot-A-CSA0371-Data-Structures
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Slot-A-CSA0371-Data-Structures/Linear Search
+@Shreya-S-Vi
+Shreya-S-Vi Create Linear Search
+Latest commit 7447e06 23 minutes ago
+ History
+ 1 contributor
+44 lines (42 sloc)  718 Bytes
+
+#include<stdio.h>
+void main()
+{
+	int n;
+	printf("Enter the number of elements:");
+	scanf("%d",&n);
+	int a[n],val,i,res;
+	printf("Enter the elements:\n");
+	for(i=0;i<n;i++)
+	{
+		printf("Element %d:",i+1);
+		scanf("%d",&a[i]);
+	}
+	printf("Enter the value to be searched:");
+	scanf("%d",&val);
+	for(i=0;i<n;i++)
+	{
+		if(a[i]==val)
+		{
+			res=-1;
+			break;
+		}
+	}
+	if(res==-1)
+	{
+		printf("The element is present in the array at position %d",i+1);
+	}
+	else
+	{
+		printf("The element is not present in the array");
+	}
+}
+
+
+OUTPUT:
+Enter the number of elements:5
+Enter the elements:
+Element 1:1
+Element 2:2
+Element 3:3
+Element 4:4
+Element 5:5
+Enter the value to be searched:2
+The element is present in the array at position 2
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You have no unread notifications
